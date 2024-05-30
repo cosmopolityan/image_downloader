@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Image Downloader",
+  "description": "This extension analyzes web pages and allows users to download images.",
+  "version": "1.0",
+  "author": "cosmopolityan",
+  "permissions": ["activeTab", "scripting", "downloads"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "download.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js", "jszip.min.js", "FileSaver.min.js"]
+    }
+  ]
+}

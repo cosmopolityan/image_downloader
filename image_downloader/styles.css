@@ -1,0 +1,27 @@
+body {
+  width: 300px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#downloadBtn {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+#downloadBtn:hover {
+  background-color: #00CC66;
+}
+
+.image-wrapper {
+  display: flex;
+}

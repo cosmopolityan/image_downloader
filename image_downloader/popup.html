@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="jszip.min.js"></script>
+  <script src="FileSaver.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <input type="checkbox" id="selectAll" />
+    <label for="selectAll">Select / Unselect All</label>
+  </div>
+  <div id="imagesContainer"></div>
+  <button id="downloadBtn">
+    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368">
+      <path
+        d="M192-96v-72h576v72H192Zm288-144L219-576h141v-288h240v288h141L480-240Zm0-117 114-147h-66v-288h-96v288h-66l114 147Zm0-147Z" />
+    </svg>
+    Download</button>
+  <script src="popup.js"></script>
+</body>
+
+</html>
