@@ -1,5 +1,9 @@
 # Image Downloader
 
+![GitHub repo size](https://img.shields.io/github/repo-size/cosmopolityan/image_downloader)
+![GitHub Release](https://img.shields.io/github/v/release/cosmopolityan/image_downloader)
+![GitHub last commit](https://img.shields.io/github/last-commit/cosmopolityan/image_downloader)
+
 Super simple and lightweight Google Chrome Extension for downloading images from web-pages.
 
 It's free and open-source.
